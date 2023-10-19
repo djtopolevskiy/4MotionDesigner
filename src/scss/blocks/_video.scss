@@ -21,13 +21,26 @@
   height: 100%;
   border-radius: 22px;
   border: 1px solidrgba(67, 142, 255, 0.53);
+
+  :hover {
+    opacity: 0.8;
+    cursor: pointer;
+    transition:
+      opacity 124ms linear,
+      transform 124ms linear;
+  }
 }
 
 .video_vimeo {
   border-radius: 22px;
-  // border: 1px solid rgba(67, 142, 255, 0.53);
   padding: 56.25% 0 0 0;
   position: relative;
+  :hover {
+    opacity: 0.8;
+    transition:
+      opacity 124ms linear,
+      transform 124ms linear;
+  }
 }
 
 .video_frame {

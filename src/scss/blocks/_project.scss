@@ -1,0 +1,17 @@
+.project_title {
+  padding-top: clamp(20px, 4.16vw, 50px);
+  padding-bottom: clamp(20px, 4.16vw, 50px);
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  border: 1px solid rgba(67, 142, 255, 0.53);
+}
+
+.project_title_item {
+  font-size: clamp(30px, 4.16vw, 50px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  text-align: center;
+}

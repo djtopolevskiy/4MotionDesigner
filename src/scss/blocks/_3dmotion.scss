@@ -1,0 +1,86 @@
+.container {
+  display: flex;
+}
+.motion_field {
+  display: flex;
+  width: 100%; // height: 100px;
+  position: relative;
+  align-items: center;
+}
+
+.motion_content {
+  display: flex;
+  flex-direction: column;
+  padding-top: clamp(50px, 11.25vw, 135px);
+  padding-bottom: clamp(90px, 18.33vw, 220px);
+  width: (clamp(300px, 62.5vw, 750px));
+  z-index: 2;
+}
+
+.motion_title {
+  font-size: clamp(45px, 5vw, 60px);
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.motiom_text {
+  font-size: clamp(24px, 2.83vw, 34px);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  padding-bottom: 35px;
+  text-wrap: balance;
+}
+
+.motion_btn {
+  text-transform: uppercase;
+
+  display: inline-flex;
+  padding: 14px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 26px;
+  border: 1px solid #fff;
+  background: rgba(9, 107, 255, 0.04);
+  align-self: flex-start;
+}
+
+.motion_atr {
+  display: flex;
+  height: calc(100% + clamp(90px, 10.182vw, 125px));
+  left: 0px;
+  bottom: 0px;
+  position: absolute;
+  z-index: 1;
+}
+
+.motion_art_1 {
+  object-fit: cover;
+
+  // @media (width < 856px) {
+  //   display: none;
+  // }
+}
+
+// .motion_art_2 {
+//   object-fit: fill;
+
+//   @media (629px > width) {
+//     display: none;
+//   }
+//   @media (width >= 855px) {
+//     display: none;
+//   }
+// }
+
+// .motion_art_3 {
+//   object-fit: fill;
+
+//   @media (width >= 628px) {
+//     display: none;
+//   }
+// }

@@ -1,0 +1,13 @@
+.parthners_list {
+  background-color: #131313;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  // padding: 50px 0;
+  padding-top: clamp(20px, 04.16vw, 50px);
+  padding-bottom: clamp(20px, 04.16vw, 50px);
+  gap: 50px;
+  border: 1px solid rgba(67, 142, 255, 0.4);
+}

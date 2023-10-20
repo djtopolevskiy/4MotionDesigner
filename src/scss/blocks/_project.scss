@@ -4,7 +4,8 @@
   display: flex;
   width: 100%;
   justify-content: center;
-  border: 1px solid rgba(67, 142, 255, 0.53);
+  border-top: 1px solid rgba(67, 142, 255, 0.53);
+  border-bottom: 1px solid rgba(67, 142, 255, 0.53);
 }
 
 .project_title_item {

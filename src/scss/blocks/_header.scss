@@ -27,6 +27,15 @@
 	align-items: end;
 	gap: 33px;
 
+	a {
+		color: #fff;
+	}
+
+	a:hover {
+		color: rgba(67, 142, 255, 0.53);
+		transition-duration: 225ms;
+	}
+
 	@media (max-width: 745px) {
 		display: none;
 	}

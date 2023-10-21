@@ -15,13 +15,13 @@
   padding-bottom: clamp(10px, 8.5vw, 102px);
   gap: 55px;
 
-  @media (width > 1065px) {
+  @media (min-width: 1065px) {
     .swiper {
       display: none;
     }
   }
 
-  @media (width <= 1065px) {
+  @media (max-width: 1065px) {
     .advant_blocks {
       display: none;
     }
@@ -59,11 +59,15 @@
 
 .advant_art {
   display: flex;
+
   position: absolute;
   right: 0;
   top: 0;
   bottom: 0;
 }
 .advant_img {
-  object-fit: cover;
+  // object-fit: cover;
+  // flex: 0 0 100%;
+  max-width: 100%;
+  height: 100%;
 }
